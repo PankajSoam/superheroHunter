@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 2px;
+}
+
+
+
+header{
+    width: 100%;
+    height: 60px;
+    box-shadow: 0 0 19px 0px #ffffff42;
+    background-color: #0094DD;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+input:focus{
+    outline: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+#logo{
+    margin-right: 15px;
+    width: 67px;
+    height: 50px;
+}
+
+#logo-text{
+
+    margin-left: -28px;
+    color: #c40028;
+    margin-top: -3px;
+}
+
+.nav-right{
+    display: flex;
+}
+
+.nav-right a{
+    color: #c40028;
+}
+
+.nav-right a:hover{
+    display: flex;
+    color: white;
+}
+
+.nav-right div{
+    margin: 0 20px;
+    
+    
+    font-size: 1.2rem;
+    font-weight: 700;
+    /* cursor: pointer; */
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#uperhero{
+    -webkit-text-stroke: 0.2px black;
+}
+
+
+.nav-left h1{
+    -webkit-text-stroke: 0.2px yellow;
+    display:inline; 
+    font-size: 35px;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 2px;
+}
+
+.nav-left h4{
+    display:inline; 
+}
+
+ 
+
+
+
+/* MAIN SECTION */
+main{
+    min-height: 95vh;
+    background-size: cover;
+    background-color: yellow;
+    margin-top: 60px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+main h1{
+    margin-top: 150px;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 3px;
+    color: #0094DD;
+    text-shadow: none;
+    padding: 0 15px;
+}
+
+#search-box{
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    max-width: 500px;
+}
+
+form{
+    width: 100%;
+    text-align: center;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: yellow;
+  
+  opacity: 0.5; /* Firefox */
+}
+
+
+input{
+    font-family: 'Bangers', cursive;
+    letter-spacing: 3px;
+    border-radius: 10px;
+    background-color:#c40028;
+    color: yellow; 
+    width: 100%;
+    padding: 10px;;
+    font-size: 1.2rem;
+    border: none;
+    box-shadow: 0 0 5px 2px rgba(255,255,255,0.2);
+}
+
+/* .....Suggestion box..... */
+
+
+#suggestions{
+    width: 100%;
+}
+
+.suggestion-item{
+    color: yellow;
+    width: 100%;
+    padding: 10px;
+    background-color:rgb(0,148,221, 0.8);
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: left;
+    border-bottom: 1px solid grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.suggestion-item-image{
+    height: 100px;
+    
+}
+
+.suggestion-item-container{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding-left: 20px;
+    justify-content: space-around;
+}
+
+
+.bg-red, .bg-green, .searchButton{
+    padding: 5px;
+    border-radius: 5px;
+    width: fit-content;
+    cursor: pointer;
+    font-size: 80%;
+}
+
+.bg-red:hover, .bg-green:hover, .searchButton:hover{
+    box-shadow: rgba(92, 92, 92, 0.472) 5px 5px 15px 2px;
+}
+
+.bg-green{
+    color: yellow;
+    background-color:  rgb(196,0,40, 0.9);
+}
+
+.bg-red{
+    background-color:#f443369c
+}
+
+.searchButton{
+    color: #c40028;
+    background-color:rgba(255, 255, 0, 0.9);
+
+   
+}
+
+
+
+
+
